@@ -7,10 +7,9 @@ li {
 }
 
 .navbar-list-item {
+    border-radius: 10px;
     margin-left: 1rem;
     padding: 0.8rem;
-    border-radius: 10px;
-
     color: white;
 
 }
@@ -37,4 +36,12 @@ li {
 
 a {
     text-decoration: none;
+    color: white;
+    padding: 0.8rem;
+}
+
+a:hover {
+    color: black;
+    transition: 0.5s;
+
 }

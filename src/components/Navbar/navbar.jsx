@@ -7,12 +7,12 @@ const Navbar = () => {
     return(
     <nav className='navigator-container'>
         <ul>
-            <li className='navbar-list-item'>Home</li>
-            <li className='navbar-list-item'>Serviços</li>
-            <li className='navbar-list-item'>Locais</li>
-            <li className='navbar-list-item'>Profissionais</li>
+            <a href='#'className='navbar-list-item'>Home</a>
+            <a href='#'className='navbar-list-item'>Serviços</a>
+            <a href='#'className='navbar-list-item'>Locais</a>
+            <a href='#'className='navbar-list-item'>Profissionais</a>
         </ul>
-        <li className='navbar-list-item login-button'>Login</li>
+        <a className='navbar-list-item login-button' href='/register'>Login</a>
     </nav>
     );
 }
