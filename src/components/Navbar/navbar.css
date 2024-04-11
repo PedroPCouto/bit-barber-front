@@ -1,0 +1,40 @@
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+}
+
+.navbar-list-item {
+    margin-left: 1rem;
+    padding: 0.8rem;
+    border-radius: 10px;
+
+    color: white;
+
+}
+
+.navbar-list-item:hover {
+    background-color: white;
+    transition: 0.5s;
+    cursor: pointer;
+    color: black;
+}
+
+.navigator-container {
+    display: flex;
+    width: 100%;
+    background: rgb(7,7,44);
+    background: linear-gradient(90deg, rgba(7,7,44,1) 0%, rgba(41,11,85,1) 100%);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-button {
+    margin-right: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
