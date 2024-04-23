@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-    width: 50%;
+    width: 30%;
     margin: 50px auto;
     background-color: #fff;
     padding: 2rem;
@@ -22,19 +22,18 @@ body {
     margin-bottom: 10px;
 }
 
-.input-group {
+.input-group-login {
     margin-bottom: 20px;
     text-align: left;
 }
 
-.input-group label {
+.input-group-login label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
 }
 
-.input-group input {
-    width: 100%;
+.input-group-login- input {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -47,9 +46,29 @@ body {
     text-decoration: none;
 }
 
-button {
-    width: 100%;
+.form-login {
+    display: flex;   
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#seta {
+    position: absolute;
     padding: 10px;
+    box-shadow: 1px -1px 0 0.5px #000 inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(45deg);
+  }
+
+  #seta:hover {
+    cursor: pointer;
+  }
+
+button {
+    padding: 10px;
+    width: 50%;
     background-color: #007bff;
     color: #fff;
     border: none;

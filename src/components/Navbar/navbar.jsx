@@ -12,7 +12,10 @@ const Navbar = () => {
             <a href='#'className='navbar-list-item'>Locais</a>
             <a href='#'className='navbar-list-item'>Profissionais</a>
         </ul>
-        <a className='navbar-list-item login-button' href='/register'>Login</a>
+        <span>
+            <a className='navbar-list-item login-button' href='/login'>Entrar</a>
+            <a className='navbar-list-item login-button' href='/register'>Registrar</a>
+        </span>
     </nav>
     );
 }

@@ -35,12 +35,16 @@ li {
 }
 
 a {
+
     text-decoration: none;
+}
+
+navbar-list-item {
     color: white;
     padding: 0.8rem;
 }
 
-a:hover {
+navbar-list-item:hover {
     color: black;
     transition: 0.5s;
 
